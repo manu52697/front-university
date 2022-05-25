@@ -15,6 +15,9 @@ import { StudentsPageComponent } from './pages/students-page/students-page.compo
 import { CoursesPageComponent } from './pages/courses-page/courses-page.component';
 import { CategoriesPageComponent } from './pages/categories-page/categories-page.component';
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
+import { LoginFormComponent } from './components/auth/login-form/login-form.component';
+import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { MenuItemComponent } from './components/menu-item/menu-item.component';
     StudentsPageComponent,
     CoursesPageComponent,
     CategoriesPageComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    LoginFormComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,
